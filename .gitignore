@@ -1,0 +1,14 @@
+.env
+.env.local
+.env.*.local
+*.log
+.DS_Store
+node_modules/
+dist/
+build/
+.venv/
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+*.swp
