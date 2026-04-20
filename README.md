@@ -21,9 +21,13 @@ Restart Claude Code (or open a fresh session) and the skill becomes invokable by
 | Skill | What it does |
 |---|---|
 | [`build-site`](skills/build-site/) | Builds cinematic, high-fidelity React landing pages from a fixed premium design system (4 aesthetic presets, GSAP animations, locked component architecture). |
-| [`morning-brief`](skills/morning-brief/) | *(coming with Video 1)* The morning context skill — calendar digest + priority brief + first action, spoken to you over voice. |
+| [`morning-brief-starter`](skills/morning-brief-starter/) | Two-layer briefing pipeline starter — fetches the latest video from a YouTube channel, distills a voice-ready spoken brief + structured deck brief, writes it to a dated markdown file. Bring your own TTS / scheduler / filter. |
 
 More skills ship with each YouTube video at [@TaoufikAI](https://youtube.com/@TaoufikAI).
+
+## What's public vs private
+
+These skills are **starters** — they teach the patterns I run in production, not the production stack itself. The JARVIS runtime, my AgenticV2 skills, and my content vault stay private (client data, branded templates, and bespoke tuning don't belong in a public repo). Fork a starter, adapt it to your own life, and share what you build.
 
 ## Community
 
